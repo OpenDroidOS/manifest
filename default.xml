@@ -20,4 +20,5 @@
 
   <include name="ohos/ohos.xml"/>
   <include name="chipsets/all.xml"/>
+  <include name="opendroid.xml"/>
 </manifest>
