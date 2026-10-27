@@ -28,6 +28,14 @@
   <project name="third_party_abseil-cpp" path="third_party/abseil-cpp"
            remote="opendroid" revision="refs/heads/opendroid-7.0"
            groups="default,ohos:standard,ohos:system" />
+  <remove-project name="arkcompiler_ets_frontend" />
+  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend"
+           remote="opendroid" revision="refs/heads/opendroid-7.0"
+           groups="default,ohos:standard,ohos:system" />
+  <remove-project name="arkui_napi" />
+  <project name="arkui_napi" path="foundation/arkui/napi"
+           remote="opendroid" revision="refs/heads/opendroid-7.0"
+           groups="default,ohos:standard,ohos:system" />
 
   <project name="device_soc_qualcomm_sm8735" path="device/soc/qualcomm/sm8735"
            remote="opendroid" revision="refs/heads/opendroid-7.0" />
