@@ -42,6 +42,11 @@
            remote="opendroid" revision="refs/heads/opendroid-7.0"
            groups="default,ohos:standard,ohos:system" />
 
+  <remove-project name="third_party_pulseaudio" />
+  <project name="third_party_pulseaudio" path="third_party/pulseaudio"
+           remote="opendroid" revision="refs/heads/opendroid-7.0"
+           groups="default,ohos:standard,ohos:system" />
+
   <project name="device_soc_qualcomm_sm8735" path="device/soc/qualcomm/sm8735"
            remote="opendroid" revision="refs/heads/opendroid-7.0" />
   <project name="vendor_opendroid_common" path="vendor/opendroid/common"
